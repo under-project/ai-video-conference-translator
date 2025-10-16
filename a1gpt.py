@@ -1,5 +1,5 @@
 a1gpt_VERSION = "1.1.0"
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/InfoSecREDD/a1gpt-Lite/main/a1gpt.py"
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/under-project/ai-video-conference-translator/main/a1gpt.py"
 
 import warnings
 import sys
@@ -254,9 +254,7 @@ class RainEffects:
             frames = int(duration / speed)
 
             chars = (
-                "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ"
                 "0123456789"
-                "░▒▓█▌▐▄▀■□"
             )
 
             raindrops = []
@@ -390,12 +388,6 @@ class RainEffects:
     @staticmethod
     def print_banner():
         banner = f"""
-{Colors.BRIGHT_GREEN}    ·██▄▄ • ▄▄▄· ▄▄▄  ▄ •▄  ▄▄ • ▄▄▄▄· ▄▄▄▄▄•
-{Colors.BRIGHT_GREEN}    ██▪ ██ ▐█ ▀█ ▀▄ █·█▌▄▌▪▐█ ▀ ▪▐█ ▀█▪•██  
-{Colors.BRIGHT_CYAN}    ▐█· ▐█▌▄█▀▀█ ▐▀▀▄ ▐▀▀▄·▄█ ▀█▄▐█▀▀   ▐█.▪
-{Colors.BRIGHT_CYAN}    ██. ██ ▐█ ▪▐▌▐█•█▌▐█.█▌▐█▄▪▐███ .▪• ▐█▌·
-{Colors.BRIGHT_BLUE}    ███▀▀•  ▀  ▀ .▀  ▀·▀  ▀·▀▀▀▀ ·▀  •  ▀▀▀ 
-{Colors.BRIGHT_RED}                   
 {Colors.BRIGHT_YELLOW}                       LITE
 {Colors.BRIGHT_GREEN}                   By  
 {Colors.RESET}"""
